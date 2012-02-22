@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: pagemenu.xml 1363 2010-05-04 18:04:28Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/page-menu.xsd">
+	<import>
+		<pagemenuitem name="wcf.header.menu.contentPage">
+			<iconmedium>contentPageAddM.png</iconmedium>
+			<iconsmall>contentPageAddS.png</iconsmall>
+			<position>footer</position>
+			<permissions>user.contentPage.canAddContentPage</permissions>
+			<link>index.php?form=ContentPageAdd</link>
+			<options>module_content_page</options>
+		</pagemenuitem>
+	</import>
+</data>

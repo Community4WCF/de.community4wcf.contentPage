@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: eventlistener.xml 1421 2010-05-14 16:40:08Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/event-listener.xsd">
+	<import>
+		<eventlistener>
+			<eventClassName>PollOverviewPage</eventClassName>
+			<eventName>readData</eventName>
+			<listenerClassFile>lib/system/event/listener/PollOverviewPageContentPageListener.class.php</listenerClassFile>
+		</eventlistener>
+	</import>
+</data>

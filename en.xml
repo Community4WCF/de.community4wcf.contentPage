@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1479 2010-06-23 16:22:49Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<!-- wcf.content.page -->
+	<category name="wcf.content.page">
+		<item name="wcf.content.page.pageAdd"><![CDATA[Page Add]]></item>
+		<item name="wcf.content.page.pageAdd.general"><![CDATA[General information]]></item>
+		<item name="wcf.content.page.pageAdd.subject"><![CDATA[Title]]></item>
+		<item name="wcf.content.page.pageAdd.icon"><![CDATA[Icon]]></item>
+		<item name="wcf.content.page.pageAdd.icon.description"><![CDATA[Enter the name of an icon. The icon must be in the WCF folder.]]></item>
+		<item name="wcf.content.page.pageAdd.shortDescription"><![CDATA[Description]]></item>
+		<item name="wcf.content.page.pageAdd.shortDescription.description"><![CDATA[Enter a short description of the content of the page.]]></item>
+		<item name="wcf.content.page.pageAdd.message"><![CDATA[Message]]></item>
+		<item name="wcf.content.page.pageEdit"><![CDATA[Page &raquo;{$page->subject}&laquo; edit]]></item>
+		<item name="wcf.content.page.pageAdd.canSeeGroupIDs"><![CDATA[Which groups should be able to see this page?]]></item>
+		<item name="wcf.content.page.pageAdd.canSeeGroupIDs.description"><![CDATA[Select the groups that should have access to the page.]]></item>
+		<item name="wcf.content.page.pageAdd.canSeeGroupIDs.empty"><![CDATA[You must enter at least one group the right to be able to see the page.]]></item>
+		<item name="wcf.content.page.delete"><![CDATA[Delete page]]></item>
+		<item name="wcf.content.page.delete.sure"><![CDATA[Do you want to delete this page really?]]></item>
+		<item name="wcf.content.page.pageAdd.success"><![CDATA[Page was added successfully]]></item>
+		<item name="wcf.content.page.edit.successful"><![CDATA[Page was edited successfully]]></item>
+		<item name="wcf.content.page.edit"><![CDATA[Page &raquo;{$page->subject}&laquo; edit]]></item>
+	</category>
+	<!-- /wcf.content.page -->
+	
+	<!-- wcf.attachment -->
+	<category name="wcf.attachment">
+		<item name="wcf.attachment.containerType.contentPage"><![CDATA[Page]]></item>
+	</category>
+	<!-- /wcf.attachment -->
+	
+	<!-- wcf.search -->
+	<category name="wcf.search">
+		<item name="wcf.search.type.contentPage"><![CDATA[Page]]></item>
+	</category>
+	<!-- /wcf.search -->
+	
+	<!-- wcf.header.menu -->
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.contentPage"><![CDATA[Seite hinzufügen]]></item>
+	</category>
+	<!-- /wcf.header.menu -->
+	
+	<!-- wcf.acp.option -->
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_content_page"><![CDATA[Fast Page Management]]></item>
+		<item name="wcf.acp.option.module_content_page.description"><![CDATA[Enables the ability to manage pages.]]></item>
+		<item name="wcf.acp.option.category.contentPage"><![CDATA[Fast Page Management]]></item>
+		<item name="wcf.acp.option.category.contentPage.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.contentpage_enable_pagemenu"><![CDATA[PageMenu]]></item>
+		<item name="wcf.acp.option.contentpage_enable_pagemenu.description"><![CDATA[]]></item>
+	</category>
+	<!-- /wcf.acp.option -->
+	
+	<!-- wcf.acp.group -->
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.content.page"><![CDATA[Fast Page Management]]></item>
+		<item name="wcf.acp.group.option.category.user.content.page.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canViewContentPage"><![CDATA[Can see pages]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canViewContentPage.description"><![CDATA[Members of this usergroup can see pages.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canAddContentPage"><![CDATA[Can add pages]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canAddContentPage.description"><![CDATA[Members of this usergroup can add pages.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canDownloadAttachment"><![CDATA[Can download attachments]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canDownloadAttachment.description"><![CDATA[Members of this usergroup can download attachments.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canViewAttachmentPreview"><![CDATA[Can view attachment preview]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canViewAttachmentPreview.description"><![CDATA[Members of this user group can view the preview of attachments.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canUploadAttachment"><![CDATA[Can upload attachments]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canUploadAttachment.description"><![CDATA[Members of this usergroup can upload attachments.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.maxAttachmentSize"><![CDATA[Maximum attachment size]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.maxAttachmentSize.description"><![CDATA[Please enter the maximum size of attachement files in bytes.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.allowedAttachmentExtensions"><![CDATA[Allowed file extensions]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.allowedAttachmentExtensions.description"><![CDATA[Please enter the allowed file extensions of attachments. One extension per line.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.maxAttachmentCount"><![CDATA[Maximum attachments per page]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.maxAttachmentCount.description"><![CDATA[Please enter the maximum number of attachments that members of this usergroup can upload per page.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canVotePoll"><![CDATA[Can vote at polls]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canVotePoll.description"><![CDATA[Members of this usergroup can vote at polls.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canStartPoll"><![CDATA[Can open polls]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canStartPoll.description"><![CDATA[Members of this usergroup can open polls.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canStartPublicPoll"><![CDATA[Can start public polls]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canStartPublicPoll.description"><![CDATA[Members of this usergroup can start public polls where every user can see who voted for what.]]></item>
+		<item name="wcf.acp.group.option.category.mod.content.page"><![CDATA[Fast Page Management]]></item>
+		<item name="wcf.acp.group.option.category.mod.content.page.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.mod.contentPage.canEditContentPage"><![CDATA[Can edit pages]]></item>
+		<item name="wcf.acp.group.option.mod.contentPage.canEditContentPage.description"><![CDATA[Members of this usergroup can edit pages.]]></item>
+		<item name="wcf.acp.group.option.mod.contentPage.canDeleteContentPage"><![CDATA[Can delete pages]]></item>
+		<item name="wcf.acp.group.option.mod.contentPage.canDeleteContentPage.description"><![CDATA[Members of this usergroup can delete pages.]]></item>
+	</category>
+	<!-- /wcf.acp.group -->
+</language>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: act.xml 1421 2010-05-14 16:40:08Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/act.xsd">
+	<import>
+		<act name="contentPage">
+			<url><![CDATA[index.php?page=ContentPage&pageID=%s]]></url>
+		</act>
+	</import>
+</data>

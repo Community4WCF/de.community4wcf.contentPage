@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de.xml 1479 2010-06-23 16:22:49Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<!-- wcf.content.page -->
+	<category name="wcf.content.page">
+		<item name="wcf.content.page.pageAdd"><![CDATA[Seite hinzuf&uuml;gen]]></item>
+		<item name="wcf.content.page.pageAdd.general"><![CDATA[Allgemeine Angaben]]></item>
+		<item name="wcf.content.page.pageAdd.subject"><![CDATA[Titel]]></item>
+		<item name="wcf.content.page.pageAdd.icon"><![CDATA[Icon]]></item>
+		<item name="wcf.content.page.pageAdd.icon.description"><![CDATA[Geben Sie hier die Bezeichnung des Icons ein. Wenn Sie das Icon &raquo;test&laquo; verwenden wollen, geben Sie auch nur &raquo;test&laquo; ein. Das Icon muss sich im WCF Ordner befinden.]]></item>
+		<item name="wcf.content.page.pageAdd.shortDescription"><![CDATA[Kurzbeschreibung]]></item>
+		<item name="wcf.content.page.pageAdd.shortDescription.description"><![CDATA[Geben Sie hier eine kurze Beschreibung &uuml;ber den Inhalt der Seite an.]]></item>
+		<item name="wcf.content.page.pageAdd.message"><![CDATA[Nachricht]]></item>
+		<item name="wcf.content.page.pageEdit"><![CDATA[Seite &raquo;{$page->subject}&laquo; bearbeiten]]></item>
+		<item name="wcf.content.page.pageAdd.canSeeGroupIDs"><![CDATA[Welche Gruppen sollen diese Seite sehen k&ouml;nnen?]]></item>
+		<item name="wcf.content.page.pageAdd.canSeeGroupIDs.description"><![CDATA[W&auml;hlen Sie hier die Gruppen aus, die auf die Seite Zugriff haben sollen.]]></item>
+		<item name="wcf.content.page.pageAdd.canSeeGroupIDs.empty"><![CDATA[Sie m&uuml;ssen mindestens einer Gruppe das Recht geben, die Seite sehen zu d&uuml;rfen.]]></item>
+		<item name="wcf.content.page.delete"><![CDATA[Seite l&ouml;schen]]></item>
+		<item name="wcf.content.page.delete.sure"><![CDATA[Wollen Sie diese Seite wirklich l&ouml;schen?]]></item>
+		<item name="wcf.content.page.pageAdd.success"><![CDATA[Seite wurde erfolgreich hinzuf&uuml;gt]]></item>
+		<item name="wcf.content.page.edit.successful"><![CDATA[Seite wurde erfolgreich bearbeitet]]></item>
+		<item name="wcf.content.page.edit"><![CDATA[Seite &raquo;{$page->subject}&laquo; bearbeiten]]></item>
+	</category>
+	<!-- /wcf.content.page -->
+	
+	<!-- wcf.attachment -->
+	<category name="wcf.attachment">
+		<item name="wcf.attachment.containerType.contentPage"><![CDATA[Seite]]></item>
+	</category>
+	<!-- /wcf.attachment -->
+	
+	<!-- wcf.search -->
+	<category name="wcf.search">
+		<item name="wcf.search.type.contentPage"><![CDATA[Seiten]]></item>
+	</category>
+	<!-- /wcf.search -->
+	
+	<!-- wcf.header.menu -->
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.contentPage"><![CDATA[Seite hinzufügen]]></item>
+	</category>
+	<!-- /wcf.header.menu -->
+	
+	<!-- wcf.acp.option -->
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_content_page"><![CDATA[Schnelle Seitenverwaltung]]></item>
+		<item name="wcf.acp.option.module_content_page.description"><![CDATA[Aktiviert die M&ouml;glichkeit, Seiten zu verwalten.]]></item>
+		<item name="wcf.acp.option.category.contentPage"><![CDATA[Schnelle Seitenverwaltung]]></item>
+		<item name="wcf.acp.option.category.contentPage.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.contentpage_enable_pagemenu"><![CDATA[PageMenu]]></item>
+		<item name="wcf.acp.option.contentpage_enable_pagemenu.description"><![CDATA[Ist diese Funktion aktiviert, werden Menueinträge für diese Seiten automatisch erstellt oder bearbeitet. WICHTIG: Diese Funktion einmalig VOR Erstbenutzung einstellen.]]></item>
+	</category>
+	<!-- /wcf.acp.option -->
+	
+	<!-- wcf.acp.group -->
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.content.page"><![CDATA[Schnelle Seitenverwaltung]]></item>
+		<item name="wcf.acp.group.option.category.user.content.page.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canViewContentPage"><![CDATA[Kann Seiten sehen]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canViewContentPage.description"><![CDATA[Mitglieder dieser Benutzergruppe können Seiten sehen.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canAddContentPage"><![CDATA[Kann Seiten erstellen]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canAddContentPage.description"><![CDATA[Mitglieder dieser Benutzergruppe können Seiten erstellen.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canDownloadAttachment"><![CDATA[Kann Dateianhänge herunterladen]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canDownloadAttachment.description"><![CDATA[Mitglieder dieser Benutzergruppe können Dateianhänge herunterladen/betrachten.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canViewAttachmentPreview"><![CDATA[Kann Dateianhangs-Vorschau sehen]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canViewAttachmentPreview.description"><![CDATA[Mitglieder dieser Benutzergruppe können die Vorschau von Dateianhängen sehen.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canUploadAttachment"><![CDATA[Kann Dateianhänge hochladen]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canUploadAttachment.description"><![CDATA[Mitglieder dieser Benutzergruppe können eigene Dateianhänge hochladen. Bei der Seitenerstellung werden die entsprechenden Felder angezeigt.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.maxAttachmentSize"><![CDATA[Maximale Dateianhangsgröße]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.maxAttachmentSize.description"><![CDATA[Maximale Größe pro Dateianhang in Byte.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.allowedAttachmentExtensions"><![CDATA[Erlaubte Dateiendungen]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.allowedAttachmentExtensions.description"><![CDATA[Erlaubte Endungen für Dateianhänge. Pro Zeile eine Dateiendung angeben.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.maxAttachmentCount"><![CDATA[Maximale Dateianhänge pro Seite]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.maxAttachmentCount.description"><![CDATA[Wieviele Dateianhänge sollen Mitglieder dieser Benutzergruppe pro Seite einfügen können?]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canVotePoll"><![CDATA[Kann an Umfragen teilnehmen]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canVotePoll.description"><![CDATA[Mitglieder dieser Benutzergruppe können an Umfragen teilnehmen.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canStartPoll"><![CDATA[Kann Umfragen starten]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canStartPoll.description"><![CDATA[Mitglieder dieser Benutzergruppe können selbst Umfragen starten.]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canStartPublicPoll"><![CDATA[Kann öffentliche Umfragen erstellen]]></item>
+		<item name="wcf.acp.group.option.user.contentPage.canStartPublicPoll.description"><![CDATA[Mitglieder dieser Benutzergruppe können öffentliche Umfragen erstellen. Hier kann jeder Benutzer sehen, wer für was abgestimmt hat.]]></item>
+		<item name="wcf.acp.group.option.category.mod.content.page"><![CDATA[Schnelle Seitenverwaltung]]></item>
+		<item name="wcf.acp.group.option.category.mod.content.page.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.mod.contentPage.canEditContentPage"><![CDATA[Kann Seiten bearbeiten]]></item>
+		<item name="wcf.acp.group.option.mod.contentPage.canEditContentPage.description"><![CDATA[Mitglieder dieser Benutzergruppe können Seiten bearbeiten.]]></item>
+		<item name="wcf.acp.group.option.mod.contentPage.canDeleteContentPage"><![CDATA[Kann Seiten löschen]]></item>
+		<item name="wcf.acp.group.option.mod.contentPage.canDeleteContentPage.description"><![CDATA[Mitglieder dieser Benutzergruppe können Seiten löschen.]]></item>
+	</category>
+	<!-- /wcf.acp.group -->
+</language>

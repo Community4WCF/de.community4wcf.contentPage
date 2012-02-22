@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: options.xml 1479 2010-06-23 16:22:49Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			<category name="contentPage">
+				<showorder>5</showorder>
+				<parent>message</parent>
+				<!-- <permissions>admin.content.contentPage.options</permissions> -->
+				<options>module_content_page</options>
+			</category>
+		</categories>
+		<options>
+			<!-- module options -->
+			<option name="module_content_page">
+				<categoryname>module.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- /module options -->
+			<!-- page options -->
+			<option name="contentpage_enable_pagemenu">
+				<categoryname>contentPage</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<hidden>1</hidden>
+				<showorder>1</showorder>
+			</option>
+			<!-- /page options -->
+		</options>
+	</import>	
+</data>
